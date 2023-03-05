@@ -20,4 +20,4 @@ var pastNewYear = new DateTime(2022, 12, 31);
 var time = new TimeSpan(13, 09, 02);
 
 Console.WriteLine(toNewYear - passedNewYear - time + " days left to New Year");
-Console.WriteLine(passedNewYear - pastNewYear + " days passed from New Year");
+Console.WriteLine(passedNewYear - pastNewYear - time + " days passed from New Year");
